@@ -23,8 +23,5 @@
     "psr-4": {
       "Console\\": "src/Console"
     }
-  },
-  "bin": [
-    "bin/tidypmp"
-  ]
+  }
 }
