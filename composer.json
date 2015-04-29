@@ -1,0 +1,30 @@
+{
+  "name": "rquadling/console",
+  "type": "library",
+  "description": "Provide a Symfony Console Single Command Application",
+  "keywords": [
+    "symfony",
+    "console",
+    "single command application"
+  ],
+  "homepage": "https://github.com/RQuadling/console",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Richard Quadling",
+      "email": "RQuadling@GMail.com",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "symfony/console": "~2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Console\\": "src/Console"
+    }
+  },
+  "bin": [
+    "bin/tidypmp"
+  ]
+}
